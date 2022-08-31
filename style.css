@@ -1,6 +1,7 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: blanchedalmond;
+  text-align: center;
 }
 #container {
   margin: auto;
@@ -34,7 +35,6 @@ input#input {
   border: 2px solid #b295ff;
   border-radius: 5px;
   font-size: 58px;
-  text-align: center;
 }
 button {
   width: 117px;
@@ -48,16 +48,16 @@ button {
   width: 500px;
   height: 108px;
   background-color: #273549;
-  text-align: center;
-  left: 25px;
   color: rgba(204, 193, 255, 1);
-  padding-bottom: 10px;
+  padding-bottom: 11px;
+  display: inline-grid;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 10px;
 }
-h3 {
-  padding-top: 20px;
-}
+
 .results input {
-  width: 450px;
+  width: 200px;
   height: 33px;
   background: transparent;
   text-align: center;
