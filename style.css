@@ -1,11 +1,14 @@
 body {
+  font-family: "Inter", sans-serif;
+  background-color: blanchedalmond;
+}
+#container {
   margin: auto;
   width: 550px;
   height: 729px;
   background-color: #1f2937;
-  border: white 2px solid;
+  border: rgb(255, 255, 255) 2px solid;
   border-radius: 20px;
-  font-family: "Inter", sans-serif;
 }
 h1 {
   font-size: x-large;
@@ -62,5 +65,5 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
-  /* border: none; */
+  border: none;
 }
